@@ -9,6 +9,7 @@
       <remap from="voxblox_rrt_planner/tsdf_map_in" to="tsdf_map" />
       <param name="tsdf_voxel_size" value="$(arg voxel_size)" />
       <param name="tsdf_voxels_per_side" value="16" />
+      <param name="input_path" value="/root/ws/mav_voxblox_planning_maps/machine_hall/voxblox/rs_esdf_0.10.voxblox" />
 
       <param name="visualize" value="true" />
       <param name="robot_radius" value="0.5" />
